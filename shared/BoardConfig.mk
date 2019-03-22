@@ -131,3 +131,6 @@ BOARD_VNDK_VERSION := current
 
 # TODO(b/73078796): remove
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+
+# TODO(b/129092102): Remove workaround flag when LOCAL_MODULE_TAGS are addressed
+BUILD_BROKEN_ENG_DEBUG_TAGS := true
